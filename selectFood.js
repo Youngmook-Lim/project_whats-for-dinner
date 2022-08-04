@@ -186,7 +186,7 @@ const loadImgsHTML = () => {
         <h3 class="food-title">${menu.title}</h3>
         <input class="checkbox" type="checkbox" />
       </div>
-      <img class="food-img" src="/img/${menu.id}_${menu.description}.jpg" alt="${menu.description}" />
+      <img class="food-img" src="img/${menu.id}_${menu.description}.jpg" alt="${menu.description}" />
       <p class="food-description">₩${menu.price} / ${menu.calories}kcal</p>
     </div>
     `;

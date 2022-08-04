@@ -36,7 +36,7 @@ const loadImgsHTML = () => {
         <div class="tfood-title-container">
           <h3 class="tfood-title">${playData[0].title}</h3>
         </div>
-        <img class="tfood-img" src="/img/${playData[0].id}_${playData[0].description}.jpg" alt="${playData[0].description}" />
+        <img class="tfood-img" src="img/${playData[0].id}_${playData[0].description}.jpg" alt="${playData[0].description}" />
         <p class="tfood-description">₩${playData[0].price} / ${playData[0].calories}kcal</p>
       </div>
       <h1 class="winner">당신은 지금  <${playData[0].title}>  이/가 먹고 싶습니다!</h1>
@@ -54,7 +54,7 @@ const loadImgsHTML = () => {
       <div class="tfood-title-container">
         <h3 class="tfood-title">${playData[i].title}</h3>
       </div>
-      <img class="tfood-img" src="/img/${playData[i].id}_${playData[i].description}.jpg" alt="${playData[i].description}" />
+      <img class="tfood-img" src="img/${playData[i].id}_${playData[i].description}.jpg" alt="${playData[i].description}" />
       <p class="tfood-description">₩${playData[i].price} / ${playData[i].calories}kcal</p>
     </div>
     `;
