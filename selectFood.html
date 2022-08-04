@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>오늘 뭐 먹지?</title>
+    <script defer src="/selectFood.js"></script>
+    <link rel="icon" type="image/x-icon" href="assets/rice.png" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="title">
+        <a class="title-return" href="/index.html">오늘 뭐 먹지?</a>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main-container">
+        <div class="list-container"></div>
+      </div>
+      <div class="description">
+        <a
+          class="btn btn-start btn-game"
+          href="/tournament.html"
+          style="pointer-events: none; opacity: 50%"
+          >START!</a
+        >
+      </div>
+    </main>
+
+    <div class="counter">0<span>개</span></div>
+    <footer>
+      <div class="footer">
+        <div>
+          대전광역시 유성구 덕명동 124번지 삼성화재 유성캠퍼스 (한밭대학교
+          맞은편)<br />
+          &copy; Website 2022. All Rights Reserved.<br />
+        </div>
+      </div>
+    </footer>
+
+    <!-- 페이지 상단으로 이동하는 버튼 -->
+    <div class="top-button-div">
+      <a id="top-button" href="#">
+        <i class="bi bi-caret-up-fill fs-1"></i>
+      </a>
+      <span class="TOP">TOP</span>
+    </div>
+  </body>
+</html>
